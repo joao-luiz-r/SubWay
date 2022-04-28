@@ -21,7 +21,19 @@ namespace SubWay
             Console.WriteLine("");
             ISub sub4 = new SubShort(sub3);
             Console.WriteLine($"Description: {sub4.GetDescription()}");
-            Console.WriteLine($"Price: {sub4.GetPrice()}");
+            Console.WriteLine($"Price: {sub4.GetPrice()}"); 
+            Console.WriteLine("");
+
+            ISub sub5 = new SubShort(sub2);
+            Console.WriteLine($"Description: {sub5.GetDescription()}");
+            Console.WriteLine($"Price: {sub5.GetPrice()}");
+            Console.WriteLine("");
+
+            ISub sub6 = new SubHeated(sub1);
+            Console.WriteLine($"Description: {sub6.GetDescription()}");
+            Console.WriteLine($"Price: {sub6.GetPrice()}");
+            Console.WriteLine("");
+
         }
     }
 }
