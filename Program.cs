@@ -34,6 +34,10 @@ namespace SubWay
             Console.WriteLine($"Price: {sub6.GetPrice()}");
             Console.WriteLine("");
 
+            ISub sub7 = new SubDelivery(sub4); // Base Sub + heated 
+            Console.WriteLine($"Description: {sub7.GetDescription()}");
+            Console.WriteLine($"Price: {sub7.GetPrice()}");
+            Console.WriteLine("");
         }
     }
 }
